@@ -1,0 +1,43 @@
+%box {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background: #eee;
+    border-radius: 1px;
+}
+
+.box1 {
+    @extend %box;
+    &__text {
+        text-align: center;
+        font: {
+            size: 20px;
+            family: "sans-serif";
+        };
+    }
+    color: chocolate;
+}
+
+.box2 {
+    @extend %box;
+    &__text {
+        text-align: center;
+        font: {
+            size: 20px;
+            family: "sans-serif";
+        };
+        color: red;
+    }
+}
+
+.box3 {
+    @extend %box;
+    &__text {
+        text-align: center;
+        font: {
+            size: 20px;
+            family: "sans-serif";
+        };
+    }
+    color: blue;
+}

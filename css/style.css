@@ -1,0 +1,26 @@
+.box1, .box2, .box3 {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  background: #eee;
+  border-radius: 1px; }
+
+.box1 {
+  color: chocolate; }
+  .box1__text {
+    text-align: center;
+    font-size: 20px;
+    font-family: "sans-serif"; }
+
+.box2__text {
+  text-align: center;
+  font-size: 20px;
+  font-family: "sans-serif";
+  color: red; }
+
+.box3 {
+  color: blue; }
+  .box3__text {
+    text-align: center;
+    font-size: 20px;
+    font-family: "sans-serif"; }
